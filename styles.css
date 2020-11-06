@@ -1,0 +1,50 @@
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+h3 {
+  text-align: center;
+}
+
+.header {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  background-color: #a20a0a;
+  color: white;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
+
+.parallax {
+  min-height: 500px;
+  background-image: url(https://previews.123rf.com/images/kurhan/kurhan1103/kurhan110300100/9050894-happy-man.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+}
+
+.item {
+  background-color: #ffa36c;
+  display: inline-block;
+  margin: 5%;
+  padding: 10px;
+  height: auto;
+  width: 35%;
+}
+
+.break {
+  height: 20px;
+}
+
+.inlineBreak {
+  width: 20px;
+  display: inline-block;
+}
